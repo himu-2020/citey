@@ -2,9 +2,9 @@
 
 function Navbar() {
   return (
-    <div className="fixed z-[999] w-full px-20 py-8 font-NeueMontreal-Regular flex justify-between items-center">
+    <div className="fixed z-[999] w-full px-20 py-4 font-NeueMontreal-Regular flex justify-between items-center">
       <div className="text-transparent bg-gradient-to-br from-red-500 via-blue-500 to-green-500 bg-clip-text text-3xl font-bold">
-        <img className="[w-12vw] h-[12vw]" src="../assets/images/logo.png" alt="Citey" />
+        <img className="w-28" src="/images/logo.png" alt="Citey" />
       </div>
 
       <div className="links flex gap-10">
