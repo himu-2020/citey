@@ -7,14 +7,14 @@ import Eyes from './components/Eyes'
 
 function App() {
   return (
-    <div className='w-full min-h-screen text-white bg-zinc-950'>
+    <div className="w-full min-h-screen text-white bg-zinc-950">
       <Navbar />
       <LandingPage />
       <Marquee />
       <About />
       <Eyes />
     </div>
-  )
+  );
 }
 
 export default App
