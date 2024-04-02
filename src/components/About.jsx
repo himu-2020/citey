@@ -2,7 +2,12 @@
 
 function About() {
   return (
-    <div className="w-full p-20 text-[3vw] leading-[3.5vw] tracking-tight bg-yellow-400 rounded-tl-3xl rounded-tr-3xl text-black">
+    <div
+      data-scroll
+      data-scroll-section
+      data-scroll-speed="-.2"
+      className="w-full p-20 text-[3vw] leading-[3.5vw] tracking-tight bg-yellow-400 rounded-tl-3xl rounded-tr-3xl text-black"
+    >
       <h1 className="font-NeueMontreal-Regular">
         Citey serves as a strategic ally to rapidly expanding technology
         enterprises seeking to secure funding, market their products, articulate
@@ -16,9 +21,7 @@ function About() {
             <div className="w-2 h-2 bg-zinc-100 rounded-full"></div>
           </button>
         </div>
-        <div className="w-1/2 h-[70vh] rounded-3xl bg-yellow-500">
-            
-        </div>
+        <div className="w-1/2 h-[70vh] rounded-3xl bg-yellow-500"></div>
       </div>
     </div>
   );
